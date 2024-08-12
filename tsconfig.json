@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "jsx": "react",          // This enables JSX
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      }
+    },
+    "include": ["App.tsx", "navigation/**/*", "AppNaviagtor.tsx"],
+    "exclude": ["node_modules"]
+  }
+  
